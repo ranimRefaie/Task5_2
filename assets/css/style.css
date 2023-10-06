@@ -1,0 +1,274 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #eb0028 !important;
+}
+
+
+section {
+    margin-top: 100px;
+}
+
+
+/* navbar top */
+.nav-top {
+    padding: 10px 0;
+
+}
+
+.closeBar {
+    top: 0;
+    right: 2%;
+}
+
+.nav-top button {
+    border: none;
+    font-size: 20px;
+}
+
+.nav-top button .remove:hover {
+    color: #eb0028 !important;
+}
+
+
+li {
+    margin-right: 10px;
+}
+
+/* Style dropdown in navbar */
+
+.drop-cllec:hover .dropdown-menu {
+    display: flex;
+    padding-left: 20px;
+}
+
+.drop-pages:hover .dropdown-menu {
+    display: block;
+    padding-left: 20px;
+}
+
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.drop-cllec li:first-child a {
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+.drop-cllec li:first-child {
+    border-bottom: 1px solid rgba(128, 125, 125, 0.2);
+}
+
+.drop-pages li {
+    border-top: 1px solid rgba(128, 125, 125, 0.2);
+}
+
+
+.dropdown-menu img {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.menu-countries {
+    --bs-dropdown-min-width: 5rem;
+}
+
+/* Hero */
+.decs {
+    color: #fff;
+    left: 45%;
+    top: 30%;
+    text-align: center;
+}
+
+.hero .btn-shop {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.hero .c-item {
+    height: 650px;
+}
+
+.hero .img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .btn-shop:hover {
+    background-color: #eb0028;
+    border: none;
+}
+
+
+
+.decs-dark .btn-shop {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    margin: 0 15px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #eb0028;
+}
+
+
+/* ==================== */
+
+.image-phone {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.image-phone img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+/* ==================== */
+
+
+#features p {
+    color: #8a8a8a;
+    padding: 15px 0;
+}
+
+#features .card {
+    border: none !important;
+}
+
+/* ==================== */
+#CUSTOMERS-LOVE {
+    background: url('../image/footer_bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    padding: 50px 0;
+}
+
+
+/* ==================== */
+.accordion {
+    --bs-accordion-bg: none;
+    --bs-accordion-color: #ffffff;
+    --bs-accordion-btn-color: #ffffff;
+    --bs-accordion-btn-focus-border-color: none;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-bg: none;
+    --bs-accordion-active-color: none;
+    --bs-accordion-border-color: none;
+    --bs-accordion-border-radius: none;
+    --bs-accordion-inner-border-radius: none;
+}
+
+.accordion-button {
+    border-bottom: 1px solid #948a8a;
+    margin-top: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'  color='white' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+    transition: all 0.5s;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20'  height='16' color='white' fill='currentColor' class='bi bi-dash-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z'/%3E%3C/svg%3E");
+}
+
+/* ==================== */
+footer {
+    background: url('../image/footer_bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 50px 0;
+}
+
+.input-search {
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 1vw;
+
+}
+
+footer button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    left: 64%;
+    top: 5%;
+}
+
+.footer-fixed {
+    background-color: #eb0028;
+    padding: 10px 0;
+}
+
+.footer-fixed button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.footer-fixed button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width:992px) {
+    html {
+        font-size: 10px;
+    }
+
+}
